@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="style.css"/>
     <title>Swiss-poem-generator</title>
 </head>
@@ -13,15 +14,15 @@
 </header>
 
 <main>
-<form> 
+<form class="poem-generator-form"> 
 <input type="text" id="input" placeholder="Enter the topic of the Swiss poem" 
 autofocus
 required
 autocomplete="off" class="instructions"/>
 <input type="submit" class="submit-button" />
 </form>
-<div class="poem">
-    To see the clouds his spirit yearned toward so 
+<div class="poem" id="poem">
+     
 <br>
     Over new mountains piled and unploughed waves, 
 </div>
